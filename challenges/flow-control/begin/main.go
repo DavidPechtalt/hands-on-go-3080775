@@ -42,7 +42,7 @@ func main() {
 			} else if unicode.IsNumber(char) {
 				analysis["numbers"]++
 			} else {
-				analysis["symbols"]++
+				analysis["symboles"]++
 			}
 		}
 	}
